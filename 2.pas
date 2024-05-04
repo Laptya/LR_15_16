@@ -93,7 +93,7 @@ end;
 
 begin
   Head := nil;
-  Assign(f, 'input.txt'); Reset(f);
+  Assign(f, 'D:\Алембаев Артём ИСПк 204-52-00\LR_15-16\F.txt'); Reset(f);
   
   while not eof(f) do
   begin
@@ -111,7 +111,7 @@ begin
   end;
   
   Close(f);
-  Assign(f, 'output.txt'); 
+  Assign(f, 'D:\Алембаев Артём ИСПк 204-52-00\LR_15-16\F2.txt'); 
   Rewrite(f);
   q := Head;
   Counter := 0;
