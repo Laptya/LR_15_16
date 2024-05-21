@@ -38,8 +38,8 @@ var
 
 begin
   
-  Assign(inputt, 'D:\Алембаев Артём ИСПк 204-52-00\LR_15-16\spis.txt');
-  Assign(outputt, 'D:\Алембаев Артём ИСПк 204-52-00\LR_15-16\spis2.txt');
+  Assign(inputt, 'spis.txt');
+  Assign(outputt, 'spis2.txt');
   Reset(inputt);
   Rewrite(outputt);
   
